@@ -2,31 +2,164 @@ package com.core.challenges.challenges._04;
 
 public class Homework {
 
-    /*
-    Se recibe como parámetro 4 números que corresponden al tamaño de los lados de un polígono. Devolver true si la
-    figura es un cuadrado.
-    Dificultad: ⭐
+    /**
+     * Dificultad: ⭐
+     * @param a lado de un polígono
+     * @param b lado de un polígono
+     * @param c lado de un polígono
+     * @param d lado de un polígono
+     * @return TRUE si corresponden a los lados de un cuadrado
      */
     public boolean isSquare(int a, int b, int c, int d) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Dada la siguiente función, recibe 3 tamaños que corresponden a los lados de un triángulo. Devolver true si
-    es posible formar un triangulo, de lo contrario falso.
-    Dificultad: ⭐⭐⭐⭐
+    /**
+     *
+     * @param a número arbitrario
+     * @return TRUE si es positivo
      */
-    public boolean isTriangle(int a, int b, int c) {
+    public boolean isPositive(int a) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * @param a número arbitrario
+     * @param b número arbitrario
+     * @return El mayor estricto entre ambos números. De no conocerse, devolver -1.
+     */
+    public boolean biggest(int a, int b) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * @param a número arbitrario
+     * @return Valor absoluto del número.
+     */
+    public int unsigned(int a) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * Postcondición: Imprimir en pantalla los números primos de la criba de Eratóstenes.
+     */
+    public void sieveOfEratosthenes() {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * Nota histórica: La función "tirar" fue importante para buscar contraejemplos en muchas situaciones de la
+     * computación moderna, para el desarrollo de lenguajes probabilísticos.
+     * La idea es "tirar" un parámetro y "quedarse" con el otro. Puede ser el primero, el segundo, o el que sea,
+     * y no necesariamente podrían ser números enteros.
+     * @param a número arbitrario
+     * @param b número arbitrario
+     * @return Primer parámetro.
+     */
+    public int throwSecondParameter(int a, int b) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * Nota histórica: La función sucesor es una de las funciones fundamentales para poder dar una definición a
+     * conjuntos infinitos de números. Por ejemplo, los números naturales se pueden definir como:
+     * n := 1 | succ(n). Por ejemplo: succ(succ(1)) es válido, y esto es igual a 3. El 3 es un símbolo usado para
+     * representar el número 3, pero acá, succ(succ(1)) representa el 3 sin necesidad de definir su símbolo.
+     * Con esto se pueden empezar a hacer diversas demostraciones a una escala muy detallada en computación.
+     *
+     * @param a número arbitrario
+     * @return El sucesor del número.
+     */
+    public int successor(int a) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * @param p booleano
+     * @param q booleano
+     * @return Valor equivalente a aplicar la compuerta XOR de la forma a XOR b.
+     */
+    public boolean xor(boolean p, boolean q) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * @param p booleano
+     * @param q booleano
+     * @return Valor equivalente a aplicar la compuerta NAND de la forma a NAND b.
+     */
+    public boolean nAnd(boolean p, boolean q) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * @param p booleano
+     * @param q booleano
+     * @return Valor equivalente a aplicar la compuerta NOR de la forma a NOR b.
+     */
+    public boolean nOr(boolean p, boolean q) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     *
+     * Ejemplos:
+     * Input: 4
+     * Output: 4*3*2*1
+     *
+     * Input: 7
+     * Output: 7*6*5*4*3*2*1
+     *
+     * @param n número arbitrario
+     * @return factorial del número
+     */
+    public int factorial(int n) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * Precondición: 100 > n > 0
+     *
+     * Ejemplos:
+     * Input: 1
+     * Output: "u"
+     *
+     * Input: 2
+     * Output: "d"
+     *
+     * @param n número arbitrario
+     * @return La primera del número.
+     */
+    public String firstCharacter(int n) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
+     * @param min inicio del rango
+     * @param max fin del rango
+     * @return Cantidad de números impares en el rango
+     */
+    public int totalOdds(int min, int max) {
         throw new RuntimeException("Not yet implemented");
     }
 
     /*
-    Los números vampiros son números que al multiplicarlos, su producto tiene de dígitos los mismos dígitos de los
-    factores. No necesariamente están en la misma posición. Ejemplo: 21 x 60 = 1.260, entonces 21 y 60 son vampiros.
-    Se reciben dos números, indicar si son números vampiros.
-    Dificultad: ⭐⭐⭐
+    Esta función debe calcular el doble factorial de un número natural.
+    Ejemplo: 4! = 4*2, 7! = 7*5*3*1.
+    Dificultad: ⭐⭐
      */
-    public boolean vampireNumber(int a, int b) {
+    public int doubleFactorial(int n) {
         throw new RuntimeException("Not yet implemented");
     }
 
@@ -35,22 +168,6 @@ public class Homework {
     Dificultad: ⭐⭐
      */
     public void printDivisors(int n) {
-        throw new RuntimeException("Not yet implemented");
-    }
-
-    /*
-    Retornar true si el número es positivo.
-    Dificultad: ⭐
-     */
-    public boolean isPositive(int a) {
-        throw new RuntimeException("Not yet implemented");
-    }
-
-    /*
-    Devolvere el mayor estricto de los parámetros. Devolver -1 si no es posible.
-    Dificultad: ⭐
-     */
-    public boolean biggest(int a, int b) {
         throw new RuntimeException("Not yet implemented");
     }
 
@@ -79,15 +196,6 @@ public class Homework {
     }
 
     /*
-    Dos números se consideran amigos, si los divisores del primer número suman el segundo, y viceversa.
-    Indicar si los números recibidos por parámetro son amigos.
-    Dificultad: ⭐⭐⭐
-     */
-    public boolean areAmicableNumbers(int a, int b) {
-        throw new RuntimeException("Not yet implemented");
-    }
-
-    /*
     Devolver true si el número es un primo de fermat. Es primo de fermat si tiene la forma 2^(2^n) + 1
     Dificultad: ⭐⭐
      */
@@ -105,55 +213,6 @@ public class Homework {
     }
 
     /*
-    Devolver el valor absoluto del número recibido como parámetro.
-    Dificultad: ⭐
-     */
-    public int unsigned(int a) {
-        throw new RuntimeException("Not yet implemented");
-    }
-
-    /*
-    Imprimir en pantalla los números primos de la criba de Eratóstenes.
-    Dificultad: ⭐
-     */
-    public void sieveOfEratosthenes() {
-        throw new RuntimeException("Not yet implemented");
-    }
-
-    /*
-    Si tenemos la función f(a) = a + 1, y g(b) = b + 2, entonces f(g(b)) = b + 2 + 1, y por otro lado,
-    g(f(a)) = a + 1 + 2. Estas funciones representan lo mismo. Pensar un ejemplo en computación, donde
-    esta conmutatividad no sera verdadera y desarrollarlo.
-    Dificultad: ⭐**
-     */
-    public void noCommutativityComposition() {
-        throw new RuntimeException("Not yet implemented");
-    }
-
-    /*
-    Desarrollar una función tirar, que dado dos parámetros "tira" el segundo, y se "queda" con el primero.
-    Nota histórica: La función "tirar" fue importante para buscar contraejemplos en muchas situaciones de la
-    computación moderna, para el desarrollo de lenguajes probabilísticos.
-    Dificultad: ⭐
-     */
-    public int throwSecondParameter(int a, int b) {
-        throw new RuntimeException("Not yet implemented");
-    }
-
-    /*
-    Desarrollar una función sucesor, que devuelve el "sucesor" del número que recibe como parámetro.
-    Nota histórica: La función sucesor es una de las funciones fundamentales para poder dar una definición a
-    conjuntos infinitos de números. Por ejemplo, los números naturales se pueden definir como:
-    n := 1 | succ(n). Por ejemplo: succ(succ(1)) es válido, y esto es igual a 3. El 3 es un símbolo usado para
-    representar el número 3, pero acá, succ(succ(1)) representa el 3 sin necesidad de definir su símbolo.
-    Con esto se pueden empezar a hacer diversas demostraciones a una escala muy detallada en computación.
-    Dificultad: ⭐
-     */
-    public int successor(int a) {
-        throw new RuntimeException("Not yet implemented");
-    }
-
-    /*
     Devolver el resultado de hacer el "implica" de la lógica binaria.
     Dificultad: ⭐⭐
      */
@@ -162,26 +221,47 @@ public class Homework {
     }
 
     /*
-    Devolver el resultado de hacer el "o exluyente" de la lógica binaria.
-    Dificultad: ⭐
+    Esta función debe devolver la cantidad de digitos de un número. Por ejemplo, si el parámetro es 4785, devuelve 4.
+    Dificultad: ⭐⭐
      */
-    public boolean xor(boolean p, boolean q) {
+    public int digits(int a) {
         throw new RuntimeException("Not yet implemented");
     }
 
     /*
-    Devolver el resultado de hacer el "nand" de la lógica binaria.
-    Dificultad: ⭐
-     */
-    public boolean nAnd(boolean p, boolean q) {
+    Encontrar los números primos en el rango especificado e imprimirlo en pantalla.
+    Dificultad: ⭐⭐
+    */
+    public void getPrimes(int min, int max) {
         throw new RuntimeException("Not yet implemented");
     }
 
     /*
-    Devolver el resultado de hacer el "nor" de la lógica binaria.
-    Dificultad: ⭐
+    Los números vampiros son números que al multiplicarlos, su producto tiene de dígitos los mismos dígitos de los
+    factores. No necesariamente están en la misma posición. Ejemplo: 21 x 60 = 1.260, entonces 21 y 60 son vampiros.
+    Se reciben dos números, indicar si son números vampiros.
+    Dificultad: ⭐⭐⭐
+    */
+    public boolean vampireNumber(int a, int b) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /*
+    Dos números se consideran amigos, si los divisores del primer número suman el segundo, y viceversa.
+    Indicar si los números recibidos por parámetro son amigos.
+    Dificultad: ⭐⭐⭐
      */
-    public boolean nOr(boolean p, boolean q) {
+    public boolean areAmicableNumbers(int a, int b) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /*
+    Si tenemos la función f(a) = a + 1, y g(b) = b + 2, entonces f(g(b)) = b + 2 + 1, y por otro lado,
+    g(f(a)) = a + 1 + 2. Estas funciones representan lo mismo. Pensar un ejemplo en computación, donde
+    esta conmutatividad no sera verdadera y desarrollarlo.
+    Dificultad: ⭐⭐⭐
+     */
+    public void noCommutativityComposition() {
         throw new RuntimeException("Not yet implemented");
     }
 
@@ -227,21 +307,51 @@ public class Homework {
     }
 
     /*
-    Esta función debe calcular el factorial de un número natural.
-    Ejemplo: 4! = 4*3*2*1, 7! = 7*6*5*4*3*2*1.
-    Dificultad: ⭐
-     */
-    public int factorial(int n) {
+   Encontrar el dígito más común en un rango. Por ejemplo, en el rango 10 a 19, es el 1.
+   Dificultad: ⭐⭐⭐
+   */
+    public String frequentDigit(int min, int max) {
         throw new RuntimeException("Not yet implemented");
     }
 
     /*
-    Esta función debe calcular el doble factorial de un número natural.
-    Ejemplo: 4! = 4*2, 7! = 7*5*3*1.
-    Dificultad: ⭐
+    La función tiene que devolver el dígito más chico.
+    Dificultad: ⭐⭐⭐
+    */
+    public boolean min(int a) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /*
+    La función tiene que devolver el dígito más grande.
+    Dificultad: ⭐⭐⭐
+    */
+    public boolean max(int a) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /*
+    Dada la siguiente función, recibe 3 tamaños que corresponden a los lados de un triángulo. Devolver true si
+    es posible formar un triangulo, de lo contrario falso.
+    Dificultad: ⭐⭐⭐⭐
      */
-    public int doubleFactorial(int n) {
+    public boolean isTriangle(int a, int b, int c) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /*
+    La función tiene que indicar si un número es capicúa. No es válido usar operaciones no numéricas.
+    Dificultad: ⭐⭐⭐⭐
+    */
+    public boolean isPalindromic(int a) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /*
+    La función tiene reordenar los dígitos de un número sin que usar operaciones no numéricas.
+    Dificultad: ⭐⭐⭐⭐⭐
+    */
+    public boolean sort(int a) {
         throw new RuntimeException("Not yet implemented");
     }
 }
-
