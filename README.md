@@ -1,8 +1,9 @@
 # Break and continue ☕
 
 - Tipos primitivos
-- Operaciones algebraicos
-- Operaciones lógicas
-- Operaciones de igualdad o de orden
+- Operadores algebraicos
+- Operadores lógicas
+- Operadores de igualdad o de orden
+- Operadores de funciones
 - Imprimir datos en pantalla y solicitarlos
 - Propiedades lógicas
