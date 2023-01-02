@@ -1,5 +1,8 @@
 # Break and continue ☕
 
+Antes de comenzar, recomiendo instalar el paquete de idioma español para disminuir la cantidad de advertencias
+que aparecen en el código.
+
 - Tipos primitivos
 - Operadores algebraicos
 - Operadores lógicas

@@ -157,129 +157,183 @@ public class Homework {
     /*
     Esta función debe calcular el doble factorial de un número natural.
     Ejemplo: 4! = 4*2, 7! = 7*5*3*1.
-    Dificultad: ⭐⭐
+
+     */
+
+    /**
+     * Dificultad: ⭐⭐
+     *
+     * Ejemplos:
+     * Input: 4
+     * Output: 4*2
+     *
+     * Input: 7
+     * Output: 7*5*3*1
+     * @param n número arbitrario
+     * @return Calcular el doble factorial del nùmero.
      */
     public int doubleFactorial(int n) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Dada un número natural, imprimir en pantalla todos sus divisores.
-    Dificultad: ⭐⭐
+    /**
+     * Dificultad: ⭐⭐
+     * Postcondición: Imprimir en pantalla todos sus divisores
+     * @param n número arbitrario
      */
     public void printDivisors(int n) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Devolvere el mayor estricto de los parámetros. Devolver -1 si no es posible.
-    Dificultad: ⭐*
+    /**
+     * Dificultad: ⭐⭐
+     * @param a número arbitrario
+     * @param b número arbitrario
+     * @param c número arbitrario
+     * @return mayor estricto. De no existir, devolver -1.
      */
     public boolean biggest(int a, int b, int c) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Indicar si el año recibido por parámetro es bisiesto.
-    Dificultad: ⭐*
+    /**
+     * Dificultad: ⭐⭐
+     * Tip: Investigar sobre el calendario gregoriano.
+     * @param year es un año arbitrario. Por ejemplo, 2015, 1995, 456, -100, 2023.
+     * @return TRUE si el año es bisiesto.
      */
     public boolean isLeapYear(int year) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Considere un 0 <= n <= 100, imprima el valor en números romanos.
-    Dificultad: ⭐⭐
+    /**
+     * Dificultad: ⭐⭐
+     * Precondición: 0 <= n <= 180.
+     * Postcondición: Imprimir en pantalla el número en formato de números romanos.
+     * @param n número arbitrario
      */
     public void mapsToRomanNumeral(int n) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Devolver true si el número es un primo de fermat. Es primo de fermat si tiene la forma 2^(2^n) + 1
-    Dificultad: ⭐⭐
+    /**
+     * Dificultad: ⭐⭐
+     * Tip: Un número es primo de fermat si tiene la forma 2^(2^n) + 1.
+     * @param a número arbitrario
+     * @return TRUE si el número es primo de Fermat.
      */
     public boolean fermatNumber(int a) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Invertir el número recibido como parámetro. Ejemplo: Si el número es 321 devolver 123.
-    Tip: No siempre es posible con este tipo de dato. En el caso de no poderse, devolver -1.
-    Dificultad: ⭐⭐
+    /**
+     * Dificultad: ⭐⭐
+     * Ejemplos:
+     * Input: 100
+     * Output: 1
+     *
+     * Input: 456
+     * Output: 654
+     *
+     * Input: 1000000009
+     * Output: -1
+     *
+     * Tip: No siempre es posible con este tipo de dato (int). En el caso de no poderse, devolver -1.
+     * @param n número arbitrario
+     * @return el mismo número dado vuelta.
      */
     public int reverse(int n) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Devolver el resultado de hacer el "implica" de la lógica binaria.
-    Dificultad: ⭐⭐
+    /**
+     * Dificultad: ⭐⭐
+     * @param p booleano
+     * @param q booleano
+     * @return p => q
      */
     public boolean then(boolean p, boolean q) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Esta función debe devolver la cantidad de digitos de un número. Por ejemplo, si el parámetro es 4785, devuelve 4.
-    Dificultad: ⭐⭐
+    /**
+     * Dificultad: ⭐⭐
+     * Ejemplos:
+     * Input: 0
+     * Output: 1
+     *
+     * Input: 4785
+     * Output: 4
+     *
+     * @param a número arbitrario
+     * @return cantidad de dígitos del número.
      */
     public int digits(int a) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Encontrar los números primos en el rango especificado e imprimirlo en pantalla.
-    Dificultad: ⭐⭐
-    */
+    /**
+     * Dificultad: ⭐⭐
+     * Postcondición: Pintar en pantalla los números primos en el rango especificado.
+     * @param min inicio del rango
+     * @param max fin del rango
+     */
     public void getPrimes(int min, int max) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Los números vampiros son números que al multiplicarlos, su producto tiene de dígitos los mismos dígitos de los
-    factores. No necesariamente están en la misma posición. Ejemplo: 21 x 60 = 1.260, entonces 21 y 60 son vampiros.
-    Se reciben dos números, indicar si son números vampiros.
-    Dificultad: ⭐⭐⭐
-    */
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Los números vampiros son números que al multiplicarlos, su producto tiene de dígitos los mismos dígitos de los
+     * factores. No necesariamente están en la misma posición. Ejemplo: 21 x 60 = 1.260, entonces 21 y 60 son vampiros.
+     * @param a factor arbitrario
+     * @param b factor arbitrario
+     * @return TRUE si son una pareja de números vampiros.
+     */
     public boolean vampireNumber(int a, int b) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Dos números se consideran amigos, si los divisores del primer número suman el segundo, y viceversa.
-    Indicar si los números recibidos por parámetro son amigos.
-    Dificultad: ⭐⭐⭐
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Dos números se consideran amigos, si los divisores del primer número suman el segundo, y viceversa.
+     * @param a número arbitrario
+     * @param b número arbitrario
+     * @return TRUE si son números amigos.
      */
     public boolean areAmicableNumbers(int a, int b) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Si tenemos la función f(a) = a + 1, y g(b) = b + 2, entonces f(g(b)) = b + 2 + 1, y por otro lado,
-    g(f(a)) = a + 1 + 2. Estas funciones representan lo mismo. Pensar un ejemplo en computación, donde
-    esta conmutatividad no sera verdadera y desarrollarlo.
-    Dificultad: ⭐⭐⭐
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Si tenemos la función f(a) = a + 1, y g(b) = b + 2, entonces f(g(b)) = b + 2 + 1, y por otro lado,
+     * g(f(a)) = a + 1 + 2. Estas funciones representan lo mismo.
+     * Postcondición: Pensar un ejemplo en computación, donde esta conmutatividad no será verdadera y desarrollarlo.
      */
     public void noCommutativityComposition() {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Devolver -1 si el número es deficiente, 1 si es abundante y 0 si es perfecto.
-    Es abuntante si la suma de sus divisores es más grande que el número en sí, y deficiente si no llega.
-    Es perfecto si sus divisores suman el mismo número. Ejemplo: Los divisores de 10 son 1, 2 y 5, sumados da 8
-    que es menor a 10, por ende es definiciente. Los divisores de 6 son 1, 2 y 3, que suman 6. Entonces 6 es perfecto.
-    Dificultad: ⭐⭐⭐
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Un número es abuntante si la suma de sus divisores es más grande que el número en sí, y deficiente si no llega.
+     * Es perfecto si sus divisores suman el mismo número. Ejemplo: Los divisores de 10 son 1, 2 y 5, sumados da 8
+     * que es menor a 10, por ende es definiciente. Los divisores de 6 son 1, 2 y 3, que suman 6.
+     * Entonces 6 es perfecto.
+     * @param n número arbitrario
+     * @return -1 si es un número deficiente, 0 si es perfecto y 1 si es abundante.
      */
     public int isPerfect(int n) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Un número es narcisista si cada dígito elevado a la cantidad de dígitos del número, sumados, da el mismo número.
-    Ejemplo: 1^3 + 5^3 + 3^3 = 153, entonces 153 es narcisista. Lo mismo va a suceder con números de un solo dígito.
-    Dificultad: ⭐⭐⭐
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Un número es narcisista si cada dígito elevado a la cantidad de dígitos del número, sumados, da el mismo número.
+     * Ejemplo: 1^3 + 5^3 + 3^3 = 153, entonces 153 es narcisista. Lo mismo va a suceder con números de un solo dígito.
+     * @param n número arbitrario
+     * @return TRUE si el número es narcisista.
      */
     public boolean isNarcissistic(int n) {
         throw new RuntimeException("Not yet implemented");
