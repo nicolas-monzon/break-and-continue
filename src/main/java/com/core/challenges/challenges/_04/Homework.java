@@ -4,6 +4,15 @@ public class Homework {
 
     /**
      * Dificultad: ⭐
+     * @param a número arbitrario.
+     * @return el resultado de ejecutar la función identidad.
+     */
+    public int identity(int a) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐
      * @param a lado de un polígono
      * @param b lado de un polígono
      * @param c lado de un polígono
@@ -284,6 +293,43 @@ public class Homework {
 
     /**
      * Dificultad: ⭐⭐⭐
+     * Postcondición: Imprimir en pantalla todas las ternas pitagóricas (a, b, c), tal que 0 < a,b,c < 100.
+     */
+    public void pythagoreanTriple() {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐⭐⭐
+     * @param year año de la fecha.
+     * @param month mes de la fecha.
+     * @param day día del mes de la fecha.
+     * @return TRUE si la fecha es una fecha gregoriana válida.
+     */
+    public boolean validDate(int year, int month, int day) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Un número cuadrado perfecto es un número entero que se obtiene de elevar al cuadrado otro número entero.
+     *
+     * Ejemplo:
+     * Input: 8
+     * Output: false
+     *
+     * Input: 9
+     * Output: true
+     *
+     * @param n número arbitrario.
+     * @return TRUE si el número es un cuadrado perfecto.
+     */
+    public boolean isPerfectSquare(int n) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐⭐⭐
      * Los números vampiros son números que al multiplicarlos, su producto tiene de dígitos los mismos dígitos de los
      * factores. No necesariamente están en la misma posición. Ejemplo: 21 x 60 = 1.260, entonces 21 y 60 son vampiros.
      * @param a factor arbitrario
@@ -321,7 +367,7 @@ public class Homework {
      * Es perfecto si sus divisores suman el mismo número. Ejemplo: Los divisores de 10 son 1, 2 y 5, sumados da 8
      * que es menor a 10, por ende es definiciente. Los divisores de 6 son 1, 2 y 3, que suman 6.
      * Entonces 6 es perfecto.
-     * @param n número arbitrario
+     * @param n número arbitrario.
      * @return -1 si es un número deficiente, 0 si es perfecto y 1 si es abundante.
      */
     public int isPerfect(int n) {
@@ -332,79 +378,118 @@ public class Homework {
      * Dificultad: ⭐⭐⭐
      * Un número es narcisista si cada dígito elevado a la cantidad de dígitos del número, sumados, da el mismo número.
      * Ejemplo: 1^3 + 5^3 + 3^3 = 153, entonces 153 es narcisista. Lo mismo va a suceder con números de un solo dígito.
-     * @param n número arbitrario
+     * @param n número arbitrario.
      * @return TRUE si el número es narcisista.
      */
     public boolean isNarcissistic(int n) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Imprimir de 0 hasta max, todos los primos gemelos.
-    Dificultad: ⭐⭐⭐
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Precondición: El inicio del rango se puede considerar 0.
+     * Postcondición: Imprimir en pantalla todos los primos gemelos del rango.
+     * @param max final del rango.
      */
-    public boolean printTwinPrimeNumbers(int max) {
+    public void printTwinPrimeNumbers(int max) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Usando prints, dibujar una pirámide de asteríscos de tamaño n.
-    Ejemplo: Si n es 4, entonces se debe imprimir en pantalla:
-    *
-    **
-    ***
-    ****
-    Dificultad: ⭐⭐⭐
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Postcondición: Usando prints, dibujar una pirámide de asteríscos de tamaño n.
+     * Ejemplo: Si n es 4, entonces se debe imprimir en pantalla:
+     *     *
+     *     **
+     *     ***
+     *     ****
+     * @param n tamaño de la pirámide.
      */
     public boolean triangle(int n) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-   Encontrar el dígito más común en un rango. Por ejemplo, en el rango 10 a 19, es el 1.
-   Dificultad: ⭐⭐⭐
-   */
-    public String frequentDigit(int min, int max) {
+    /**
+     * Dificultad: ⭐⭐⭐
+     * Por ejemplo, en el rango 10 a 19, se devuelve el 1.
+     * @param min inicio del rango.
+     * @param max fin del rango.
+     * @return dígito más común en el rango.
+     */
+    public char frequentDigit(int min, int max) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    La función tiene que devolver el dígito más chico.
-    Dificultad: ⭐⭐⭐
-    */
+    /**
+     * Dificultad: ⭐⭐⭐
+     * @param n número arbitrario, con n > 0.
+     * @return n ^ n
+     */
+    public int nToN(int n) {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐⭐⭐
+     * @param a número arbitrario.
+     * @return dígito más chico del número.
+     */
     public boolean min(int a) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    La función tiene que devolver el dígito más grande.
-    Dificultad: ⭐⭐⭐
-    */
+    /**
+     * Dificultad: ⭐⭐⭐
+     * @param a número arbitrario.
+     * @return dígito más grande del número.
+     */
     public boolean max(int a) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    Dada la siguiente función, recibe 3 tamaños que corresponden a los lados de un triángulo. Devolver true si
-    es posible formar un triangulo, de lo contrario falso.
-    Dificultad: ⭐⭐⭐⭐
+    /**
+     * Dificultad: ⭐⭐⭐⭐
+     * @param a lado de un polígono.
+     * @param b lado de un polígono.
+     * @param c lado de un polígono.
+     * @return TRUE si es posible armar un triángulo con estos lados.
      */
     public boolean isTriangle(int a, int b, int c) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    La función tiene que indicar si un número es capicúa. No es válido usar operaciones no numéricas.
-    Dificultad: ⭐⭐⭐⭐
-    */
+    /**
+     * Dificultad: ⭐⭐⭐⭐
+     * Precondición: No será válido utilizar operaciones no numéricas.
+     * @param a número arbitrario.
+     * @return TRUE si el número es capicúa.
+     */
     public boolean isPalindromic(int a) {
         throw new RuntimeException("Not yet implemented");
     }
 
-    /*
-    La función tiene reordenar los dígitos de un número sin que usar operaciones no numéricas.
-    Dificultad: ⭐⭐⭐⭐⭐
-    */
+    /**
+     * Dificultad: ⭐⭐⭐⭐
+     * Postcondición: Mostrar que la conjetura de Golback es verdad hasta n = 1000.
+     */
+    public void goldbachConjecture() {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐⭐⭐⭐
+     * @return devuelve el número natural más pequeño que cumple que n^n es múltiplo de n.
+     */
+    public int minNToNModN() {
+        throw new RuntimeException("Not yet implemented");
+    }
+
+    /**
+     * Dificultad: ⭐⭐⭐⭐⭐
+     * @param a número arbritario.
+     * @return nuevo número originado de permutar los dígitos del número original, de tal forma que es el más grande
+     * posible.
+     */
     public boolean sort(int a) {
         throw new RuntimeException("Not yet implemented");
     }
